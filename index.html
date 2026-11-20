@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DevSpace - Platform belajar coding modern">
+  <title>DevSpace — Learn & Build</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo"><span class="logo-icon">⌘</span> DevSpace</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="nav-btn" onclick="showMessage()">Get Started ↗</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="tag"><span class="dot"></span> YOUR CODING JOURNEY STARTS HERE</div>
+        <h1>Build your future<br>with <span>code.</span></h1>
+        <p>Learn programming, explore new technologies, and turn your ideas into something real. One line of code at a time.</p>
+        <div class="hero-actions">
+          <a href="#courses" class="primary-btn">Explore Learning <span>↗</span></a>
+          <a href="#about" class="secondary-btn">Discover DevSpace</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>05</strong><small>Technologies</small></div>
+          <div><strong>∞</strong><small>Possibilities</small></div>
+          <div><strong>01</strong><small>Starting point</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glow"></div>
+        <div class="code-card">
+          <div class="code-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>hello-world.js</span>
+          </div>
+          <div class="code-body">
+            <div><span class="ln">01</span> <span class="purple">const</span> future = <span class="green">'yours'</span>;</div>
+            <div><span class="ln">02</span></div>
+            <div><span class="ln">03</span> <span class="blue">function</span> <span class="yellow">buildDream</span>() {</div>
+            <div><span class="ln">04</span> &nbsp; <span class="purple">return</span> future;</div>
+            <div><span class="ln">05</span> }</div>
+            <div><span class="ln">06</span></div>
+            <div><span class="ln">07</span> <span class="gray">// Your journey begins</span></div>
+            <div><span class="ln">08</span> <span class="yellow">console</span>.log(buildDream());</div>
+          </div>
+          <div class="code-footer"><span>● All systems ready</span><span>UTF-8&nbsp; | &nbsp;JavaScript</span></div>
+        </div>
+        <div class="floating-card"><span>✦</span> Creativity meets technology</div>
+      </div>
+    </section>
+
+    <section class="tech-strip">
+      <span>POWERED BY</span>
+      <div>HTML <b>5</b></div>
+      <div>CSS <b>3</b></div>
+      <div>JavaScript <b>ES6+</b></div>
+      <div>JSON <b>DATA</b></div>
+      <div>Markdown <b>DOCS</b></div>
+    </section>
+
+    <section class="courses section" id="courses">
+      <div class="section-heading">
+        <div>
+          <div class="tag">LEARNING LIBRARY</div>
+          <h2>Explore the <span>stack.</span></h2>
+        </div>
+        <p>Five technologies. Countless ways to create.<br>Start exploring below.</p>
+      </div>
+
+      <div class="filter-bar">
+        <input id="searchInput" type="search" placeholder="Search technologies..." aria-label="Search courses">
+        <span id="courseCount">Loading...</span>
+      </div>
+
+      <div class="course-grid" id="courseGrid"></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-box">
+        <div class="tag">WHY DEVS SPACE?</div>
+        <h2>Ideas don't build themselves.<br><span>You do.</span></h2>
+        <p>DevSpace is a small digital space for curious minds. Learn the fundamentals, experiment freely, and keep creating things you never thought possible.</p>
+        <a href="#courses" class="primary-btn">Start exploring ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#" class="logo"><span class="logo-icon">⌘</span> DevSpace</a>
+    <p>Designed for curious minds. Built for the future.</p>
+    <span>© 2026 DevSpace</span>
+  </footer>
+
+  <div class="toast" id="toast">Welcome to DevSpace! 🚀</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
