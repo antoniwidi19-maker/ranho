@@ -1,0 +1,48 @@
+
+[
+  {
+    "name": "HTML",
+    "icon": "🌐",
+    "category": "Structure",
+    "description": "Build the foundation and structure of every website using modern HTML elements.",
+    "detail": "HTML is the foundation of web development.",
+    "bg": "#242c40",
+    "color": "#f0a35c"
+  },
+  {
+    "name": "CSS",
+    "icon": "🎨",
+    "category": "Design",
+    "description": "Create beautiful interfaces, layouts, animations, and responsive designs.",
+    "detail": "CSS brings your website to life visually.",
+    "bg": "#242b49",
+    "color": "#73a8ff"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "⚡",
+    "category": "Interaction",
+    "description": "Add interactivity, dynamic content, and powerful logic to your web projects.",
+    "detail": "JavaScript powers interactive web experiences.",
+    "bg": "#393426",
+    "color": "#f2d05d"
+  },
+  {
+    "name": "JSON",
+    "icon": "📦",
+    "category": "Data",
+    "description": "Store and organize information in a lightweight and readable data format.",
+    "detail": "JSON makes it easier to exchange and organize data.",
+    "bg": "#25372e",
+    "color": "#71dba2"
+  },
+  {
+    "name": "Markdown",
+    "icon": "📝",
+    "category": "Documentation",
+    "description": "Write simple, clean documentation, project guides, and README files.",
+    "detail": "Markdown helps document your projects clearly.",
+    "bg": "#352943",
+    "color": "#c69bff"
+  }
+]
